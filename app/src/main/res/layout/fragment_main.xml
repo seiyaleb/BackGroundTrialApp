@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"></TextView>
+
+    <Button
+        android:id="@+id/bt_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"></Button>
+
+    <Button
+        android:id="@+id/bt_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stop"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"></Button>
+
+</LinearLayout>
